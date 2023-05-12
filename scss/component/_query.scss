@@ -1,0 +1,29 @@
+@media (max-width: 600px) {
+    .carousel-item {
+        height: 70vh;
+    }
+
+    .carousel-item-img {
+        position: absolute;
+        object-fit: cover;
+        top: 0;
+        left: 0;
+        height: 70vh;
+    }
+
+    .secction-promocion_card {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .presentaciones_h2 {
+        transform: translateY(-20px);
+    }
+
+    .article-presentacion{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}

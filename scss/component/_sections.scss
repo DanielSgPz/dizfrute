@@ -1,0 +1,19 @@
+@import "../base/variables";
+
+
+.section-promocion {
+    background-image: $bg-image;
+}
+
+.secction-promocion_card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+}
+
+.section_menu-tittle {
+    padding: 1rem;
+    background-image: $bg-image;
+}

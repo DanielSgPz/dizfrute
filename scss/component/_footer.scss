@@ -1,0 +1,4 @@
+@import "../base/variables";
+footer {
+    background-color: nth($palette2 , $n: 3);
+}

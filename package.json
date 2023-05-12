@@ -1,0 +1,11 @@
+{
+  "name": "dizfrute",
+  "version": "1.0.0",
+  "description": "Este es un proyecto en el que se creará una página web para la heladería \"Dizfrute\" utilizando HTML, CSS, Bootstrap y JavaScript. La página permitirá a los usuarios visualizar los productos, realizar compras en línea, así como obtener información sobre vacantes, ubicación y horarios de atención.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
