@@ -1,4 +1,16 @@
 @import "../base/variables";
 footer {
-    background-color: nth($palette2 , $n: 3);
+    background-color: $headline;
+    color: $highlight;
+}
+
+footer a{
+    color: $highlight;
+}
+
+footer svg{
+    fill: $highlight;
+}
+footer svg:hover{
+    fill: $tertiary;
 }

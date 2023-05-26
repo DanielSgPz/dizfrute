@@ -1,8 +1,10 @@
 @import "../base/variables";
+@import "query";
+
 
 
 .section-promocion {
-    background-image: $bg-image;
+    background-color: $main;
 }
 
 .secction-promocion_card {
@@ -13,7 +15,24 @@
     grid-row-gap: 10px;
 }
 
-.section_menu-tittle {
+.section_menu-tittle{
     padding: 1rem;
-    background-image: $bg-image;
+    background-color: $highlight;
+}
+
+
+.menu-content{
+    background-color: $highlight;
+
+}
+
+.menu-content .btn{
+    background-color: $highlight;
+    color: $button-text;
+    font-weight: 500;
+
+}
+
+.card{
+    background-color: $tertiary;
 }

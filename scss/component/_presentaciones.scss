@@ -1,8 +1,21 @@
+@import "query";
+
 .presentaciones_h2 {
     transform: translateY(-125px);
+}
+
+.presentacion{
+    background-color: $highlight;
+
 }
 
 .article-presentacion{
     display: flex;
     gap: 20px;
+    
+}
+
+.article-presentacion p{
+    color: $paragraph;
+    
 }

@@ -1,7 +1,27 @@
+@import "../base/variables";
+
 .sticky-top {
     padding-top: 0;
 }
 
 .header_social {
-    background-color: aliceblue;
+    background-color: $highlight;
+}
+
+header svg{
+    fill: $tertiary;
+}
+
+header nav{
+    background-color: $main;
+    color: $stroke;
+}
+
+.navbar-nav a{
+    font-weight: 600;
+
+}
+.navbar-nav a:hover{
+    color: $paragraph;
+
 }
